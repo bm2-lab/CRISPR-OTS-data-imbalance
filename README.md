@@ -1,1 +1,2 @@
-# CRISPR-OTS-data-imbalance
+# Data imbalance in CRISPR off-target prediction
+The scripts in scripts_for_improve_Elevation are deal with the imbanlanced data of CRISPR off-targets using two different computational techniques. The code in ensamble.py is an ensemble learning way for the final prediction based on combning 831 trained models of original Elevation model. The code in smote.py is the SMOTE algorithm we use to process the unbanlance data before trainning the Elevation model. The two independace testing data are mentioned in Elevation reffered in " "
